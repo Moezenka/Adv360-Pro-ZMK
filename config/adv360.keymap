@@ -28,6 +28,13 @@
         pipe {
             bindings = <&kp RA(NON_US_BSLH)>;
             key-positions = <38 61>;
+            layers = <0>;
+        };
+
+        at {
+            bindings = <&kp RA(N2)>;
+            key-positions = <38 2>;
+            layers = <0>;
         };
     };
 
