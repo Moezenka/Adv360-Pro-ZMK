@@ -5,6 +5,13 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/rgb.h>
 
+// Custom
+#include "zmk-helpers/helper.h"
+// Source desired key-position labels
+#include "zmk-helpers/key-labels/adv360.h"
+// Source unicode-chars for desired languages
+#include "zmk-helpers/unicode-chars/swedish.dtsi"
+
 / {
     behaviors {
         #include "macros.dtsi"
